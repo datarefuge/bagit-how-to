@@ -7,6 +7,21 @@
 - This data catalog to for preserving and providing access to federal environmental and climate datasets that can not be captured as warc files.
 - When in doubt about where to put tricky sites/datasets, go for both warc in IA and here as bagit files.
 
+Overview:
+You and your team can choose from a set of available sites that can't be crawled by a web crawler. Your task is to get the data from that site as completely as possible, document what you've done, and move the copy of the data into a preservation format. Ask your guide for more info.
+Basically, you'll:
+
+1. Identify a website you'd like to work on from the spreadsheet, and claim it.
+1. Download data from federal website, and associated files, websites, etc.
+1. Use bagit to wrap the files up into a bag.
+2. Create a record in CKAN instance at [datarefuge.org](http://www.datarefuge.org) for your bag
+   1. Use the Holding Organization (ask your guide for login credentials)
+   2. Create appropriate metadata using the form
+3. Request an uploader over slack, and raise your card - prepare your bag to be moved to S3 by an Uploader (they have permissions to an AWS S3 bucket that will store the data)
+4. Update the spreadsheet to note that this tricky site is done.
+5. On to the next!
+
+
 **Note for tech people**
 
 You will need to work with two technologies for this project that you might not be familiar with. They are both standards for preserving digital files that are widely used for preservation and continued access. There are lots of resources for learning more about them. In the meantime, the basics:
